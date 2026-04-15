@@ -1,42 +1,43 @@
-📚 Système de Gestion de Librairie (Java)
+Here is the English version of your README.md. I have refined the terminology to match standard industry documentation.
+📚 Library Management System (Java)
 
-Ce projet est une application Java console permettant de gérer un inventaire de produits au sein d'une librairie. Il met en pratique les concepts fondamentaux de la Programmation Orientée Objet (POO).
-🚀 Fonctionnalités
+This project is a Java-based console application designed to manage a library inventory. It serves as a practical implementation of fundamental Object-Oriented Programming (OOP) concepts.
+🚀 Features
 
-    Gestion de produits multi-types : Support des Livres et des Magazines.
+    Multi-type Product Management: Full support for Books and Magazines.
 
-    Vente et Disponibilité : Interface dédiée pour les articles vendables.
+    Sales & Availability: Dedicated interface for sellable items.
 
-    Recherche et Gestion : Ajout, suppression et recherche de produits dans la librairie.
+    Inventory Operations: Add, remove, and search for products within the library.
 
-    Gestion d'Erreurs : Utilisation d'exceptions personnalisées pour les produits non trouvés.
+    Error Handling: Robust use of custom exceptions for handling missing items.
 
-🏗️ Architecture du Projet
+🏗️ Project Architecture
 
-Le projet est structuré autour de plusieurs classes et interfaces clés :
-Classes Principales
+The project is structured around several key classes and interfaces:
+Core Classes
 
-    Produit.java (Classe abstraite) : La base de tous les articles de la librairie (Titre, ID, Prix).
+    Produit.java (Abstract Class): The base class for all library items (Title, ID, Price).
 
-    Livre.java : Extension de Produit, incluant des attributs spécifiques comme l'auteur et l'ISBN.
+    Livre.java: Extends Produit, adding specific attributes such as Author and ISBN.
 
-    Magazine.java : Extension de Produit pour les publications périodiques.
+    Magazine.java: Extends Produit for periodical publications.
 
-    Librairie.java : La classe "Cœur" qui gère la collection de produits (ArrayList) et contient la logique métier.
+    Librairie.java: The "Core" class managing the product collection (ArrayList) and containing the business logic.
 
 Interfaces & Exceptions
 
-    Vendable.java : Interface définissant les méthodes liées à la vente d'un produit.
+    Vendable.java: Interface defining methods related to product sales.
 
-    ProduitIntrouvableException.java : Exception personnalisée levée lorsqu'une recherche de produit échoue.
-    Concepts POO Appliqués
+    ProduitIntrouvableException.java: Custom exception thrown when a product search fails.
+    📊 Applied OOP Concepts
 
-    Héritage : Livre et Magazine héritent de Produit.
+    Inheritance: Livre and Magazine inherit from the Produit base class.
 
-    Abstraction : Utilisation d'une classe parente abstraite pour factoriser le code.
+    Abstraction: Use of an abstract parent class to eliminate code redundancy.
 
-    Interfaces : Contrat de vente via Vendable.
+    Interfaces: Implementation of a sales contract via Vendable.
 
-    Encapsulation : Utilisation de getters/setters pour sécuriser les données.
+    Encapsulation: Data protection through private attributes and public getters/setters.
 
-    Gestion des Collections : Utilisation de ArrayList pour manipuler les données dynamiquement.
+    Collection Framework: Use of ArrayList for dynamic data manipulation.
