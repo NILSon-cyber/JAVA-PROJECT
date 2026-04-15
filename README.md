@@ -1,5 +1,3 @@
-Here is the English version of your README.md. I have refined the terminology to match standard industry documentation.
-📚 Library Management System (Java)
 
 This project is a Java-based console application designed to manage a library inventory. It serves as a practical implementation of fundamental Object-Oriented Programming (OOP) concepts.
 🚀 Features
